@@ -1,0 +1,958 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "How are you",
+          "Is anyone there?",
+          "Hello",
+          "Good day"
+        ],
+        "responses": [
+          "Hey :-)",
+          "Hello, what's the emergency?",
+          "Hi there, what can I do for you?",
+          "Hi there, how can I help?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye","Ok bye"],
+        "responses": [
+          "See you later",
+          "Have a nice day",
+          "Bye!",
+          "Glad i could help"
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks a lot!"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      },
+      {
+        "tag": "purpose",
+        "patterns": ["who are you?","how can you help?","what can you do?","what are you?","what do you do?","what is your purpose?"],
+        "responses": ["Hi, I am a bot that will assist you with showing \nCOVID-19 data, including, \nWhat is covid? \nHow covid is being transmitted amongst individuals \nSafeguards to be taken \nSymptoms etc. \nThank you!!!! \nHappy to help!!!!",
+                "Greetings, I am a chatbot designed to help you \nwith precise information about Covid crisis around globe \nand considerably more. \nI will be happy to answer your questions and \nassist you by giving definite data. \nThank you!!!!"
+        ]
+      },
+         {
+        "tag": "coviddefinition",
+        "patterns": [
+          "What is the coronavirus?",
+          "What is COVID-19?",
+          "What is a novel coronavirus?",
+          "what is coronavirus covid 19?",
+          "What does COVID-19 mean?"
+        ],
+        "responses": [
+          "A novel coronavirus is a new coronavirus \nthat has not been previously identified. \nThe virus causing coronavirus disease 2019 (COVID-19), \nis not the same as the coronaviruses that commonly \ncirculate among humans and cause mild illness, \nlike the common cold.",
+          "Coronaviruses are a type of virus. \nThere are many different kinds, and some cause \ndisease. A newly identified coronavirus, SARS-CoV-\n2, has caused a worldwide pandemic of respiratory \nillness, called COVID-19."
+          ]
+      },
+      {
+        "tag": "covidprecautions",
+        "patterns": [
+          "How can I prevent Covid 19?",
+          "measures to be taken to avoid corona",
+          "What precautions should be taken for corona",
+          "what precautionary measures ought to be taken for corona",
+          "How can one avoid catching or spreading Coronavirus?",
+          "What can I do to protect myself and prevent the spread of disease?",
+          "How do I protect myself and others from covid 19 infection?",
+          "How do I protect myself if I have been around someone who is infected with covid 19?",
+          "How do I keep safe from COVID-19?",
+          "How do I stop COVID 19?"
+
+        ],
+        "responses": [
+          "Wash your hands with soap and water thoroughly. \n\nContinuously wash your hands when you return home \nor from work. \n\nUse hand sanitizer gel if soap and water \nare not accessible. \n\nCover your mouth and nose with face \nmasks. \n\nAttempt to stay away from close contact with \nindividuals who are unwell. \n\nTry not to touch your eyes, nose or \nmouth if your hands are not clean.",
+          "Wear a mask to protect yourself and others \nand stop the spread of COVID-19. \n\nStay at least 6 feet (about 2 arm lengths) from \nothers who don’t live with you. \n\nAvoid crowds. \n\nWash your hands often. \n\nMonitor your health daily. \n\nGet vaccinated to protect against COVID-19."
+          ]
+      },
+      {
+        "tag": "covidsymptoms",
+        "patterns": [
+          "What are the symptoms of novel coronavirus?",
+          "What are the symptoms and complications that COVID-19 can cause?",
+          "When should I seek emergency care if I have COVID-19?",
+          "Symptoms of covid ",
+          "What are the symptoms of COVID-19?",
+          "What are the indications of COVID-19?",
+          "What are the indications of corona virus?"
+
+        ],
+        "responses": [
+          "People with COVID-19 have reported a wide \nrange of symptoms - from mild symptoms to \nsevere illness. Symptoms may appear 2-14 \ndays after exposure to the virus. If you \nhave fever, cough, or other symptoms, you \nmight have COVID-19.",
+          "Look for emergency warning signs for \nCOVID-19. If someone is showing any of \nthe following signs, seek emergency medical \ncare immediately: \n\nTrouble breathing \n\nPersistent pain or pressure in the chest \n\nNew confusion \n\nInability to wake or stay awake \n\nBluish lips or face",
+          "A few people contaminated with the \ninfection show no symptoms. \nAt the point when the infection shows symptoms, \npeople have fever, body pains, cough, nasal \nclog, runny nose, chills, headache and sore \nthroat"
+          ]
+      },
+       {
+        "tag": "covidspread",
+        "patterns": [
+          "How does COVID-19 spread? ",
+          "How does the virus spread",
+          "How is the coronavirus disease transmitted?",
+          "Can COVID-19 be transmitted from human to human",
+          "How is the Covid infection communicated?",
+          "Can the virus that causes COVID-19 be transmitted through the air?",
+          "How does coronavirus spread?"
+        ],
+        "responses": [
+         "COVID-19 usually spreads through close contact \n(less than six feet apart), when an infected \nperson transmits viral load onto others \nby coughing, sneezing or spreading virus onto \ncommonly touched surfaces. \n\nEven asymptomatic carriers of the virus \ncan spread the viral load by indirect means, \ntalking, singing or being in close contact to \npeople. A person can get infected if the virus \ngets inhaled, or lands in their mouth, nose, \neyes or ears.",
+         "The virus that causes COVID-19 most \ncommonly spreads between people who are \nin close contact with one another (within \nabout 6 feet, or 2 arm lengths). \nIt spreads through respiratory droplets or small \nparticles.It is possible that COVID-19 may \nspread through the droplets and airborne particles \nthat are formed when a person who has COVID-19 \ncoughs, sneezes, sings, talks, or breathes.",
+         "People can catch COVID-19 from others who \nhave the virus. The disease can spread \nfrom person to person through small \ndroplets from the nose or mouth which are \nspread when a person with COVID-19 coughs \nor exhales."
+          ]
+      },
+      {
+        "tag": "covidviruslifetime",
+        "patterns": [
+          "How long does the virus survive on surfaces?",
+          "How Long Does the Coronavirus Live on Surfaces?",
+          "lifetime of coronavirus",
+          "lifetime of covid 19",
+          "How long covid 19 can live on common surfaces",
+          "Can coronavirus live on objects"
+        ],
+        "responses": [
+          "Studies suggest that corona viruses \n(including preliminary information on the COVID-19 virus) \nmay persist on surfaces for a few hours \nor up to several days. \nThis may vary under different conditions \n(e.g. type of surface, temperature or humidity \nof the environment).",
+          "The coronavirus can live for hours to \ndays on surfaces like counter tops and doorknobs. \nHow long it survives depends on the material \nthe surface is made from.",
+          "Research suggests the virus' lifespan \nis anywhere between three hours and three days on \nsurfaces, depending on the material. \n\nIt is found that both coronaviruses lived the \nlongest on stainless steel and polypropylene \nwhich is a type of plastic."
+          ]
+      },
+      {
+        "tag": "covidhighriskgroups",
+        "patterns": [
+          "Who is at increased risk for developing severe illness from covid 19?",
+          "Who is at a higher risk to get infected with COVID-19?",
+          "highest age groups for covid",
+          "highest age groups for coronavirus",
+          "who is most at risk for the coronavirus disease",
+          "what groups are at higher risk of contracting covid-19",
+          "who is at higher risk for severe illness from covid-19?",
+          "Who is at higher risk"
+        ],
+        "responses": [
+          "People at increased risk include:\n\nOlder adults \n\nPeople of all ages with certain underlying medical \nconditions \n\nPregnant people are also at increased risk for \nsevere illness from COVID-19.",
+          "COVID-19 is often more severe in people \n60+yrs or with health conditions like lung \nor heart disease, diabetes or conditions that affect \ntheir immune system."
+          ]
+      },
+       {
+        "tag": "covidincubation",
+        "patterns": [
+          "How long is the incubation period for COVID-19?",
+          "What is the incubation period of the coronavirus disease?",
+          "Incubation period for covid 19",
+          "How long does it take for symptoms of the coronavirus disease to appear?"
+        ],
+        "responses": [
+            "Incubation period for COVID-19 range from \n1-14 days,most commonly around five days.",
+            "On average it takes 5 to 6 days from when\n someone is infected with the virus for symptoms\n to show, however it can take up to 14 days."
+        ]
+      },
+      {
+       "tag": "coviddiagnosis&testing",
+       "patterns": [
+         "How is COVID-19 diagnosed?",
+          "How is covid 19 diagnosed and tested",
+          "How is Coronavirus analyzed and tried",
+          "Covid testing",
+          "What are different methods to test whether a person is having covid or no",
+          "What are various techniques to test whether an individual is having Coronavirus or no"
+       ],
+       "responses": [
+        "COVID-19 can be diagnosed by laboratory test, \npolymerase chain reaction (PCR) molecular test, on \na respiratory tract sample (e.g. sample from \nnose, throat or chest). This test detects \nthe SARS-CoV-2 genetic material. "  ]
+     },
+     {
+        "tag": "covidlockdown",
+        "patterns": [
+          "what activities were restricted in the lockdown in early stages of coronavirus breakdown?",
+           "What was lockdown like in early stages of outbreak?",
+           "How was lockdown in beginning phases of corona virus outbreak?",
+           "Covid lockdown"
+        ],
+        "responses": [
+        "Lockdown restrictions: \n\nNo assembly of people \n\nPlaces of religious worships closed \n\nGyms, swimming pool and movie theatres closed \n\nPublic transport temporarily closed"
+        ]
+    },
+    {
+       "tag": "covidlockdownnow",
+       "patterns": [
+         "What is the current lockdown situation around the world?",
+          "What is the current lockdown circumstance around globe?",
+          "covid lockdown situation now",
+         "Lockdown situation now"
+       ],
+       "responses": [
+        "Lockdown in most parts of India has been \nlifted now, night curfews in some areas are still there. \nPlease get in touch with local administration \nof your area for more details about current Lockdown \nsituation."
+    ]
+   },
+   {
+    "tag": "covidvaccine",
+    "patterns": [
+      "is covid vaccine found?",
+       "covid vaccine",
+       "Which vaccine is used in India for Covid 19?",
+       "coronavirus vaccine",
+      "Are there any vaccines or other medical products to prevent COVID-19",
+      "Is there a vaccine",
+      "Is there any cure for COVID-19?",
+      "How long will it take for scientists to develop a vaccine to COVID-19?",
+      "Is there a vaccine for the coronavirus?"
+    ],
+    "responses": [
+    "There are number of vaccines accessible now \nsome of which are as yet in making. \nOut of those Covishield and Covaxin are the \nvaccines utilized in India."
+    ]
+    },
+
+      {
+        "tag": "virusspread",
+    "patterns": [
+       "How does the virus spread"
+    ],
+    "responses": [
+    "The virus that causes COVID-19 is \nthought to spread mainly from person to person, \nmainly through respiratory droplets produced when \nan infected person coughs or sneezes."
+    ]
+      },
+
+
+
+      {
+         "tag": "covidwheretotest",
+    "patterns": [
+       "Where can I get tested for COVID-19"
+    ],
+    "responses": [
+    "Contact your state, local, tribal, or territorial \ndepartment for more information, or reach out \nto a medical provider."
+    ]
+      },
+
+
+
+      {
+        "tag": "covidcuretakingsolong",
+    "patterns": [
+       "Why is a cure taking so long"
+    ],
+    "responses": [
+    "An antiviral drug must be able to target the \nspecific part of a virus's life cycle that \nis necessary for it to reproduce, according to \nHarvard Medical School."
+    ]
+      },
+
+
+      {
+        "tag": "peoplewithnosymptoms",
+    "patterns": [
+       "How many people with coronavirus don't have symptoms"
+    ],
+    "responses": [
+    "Recent studies suggest 25% to 50% of \ncoronavirus carriers don't have symptoms."
+    ]
+      },
+
+
+
+      {
+        "tag": "covidrecovery",
+    "patterns": [
+       "How long does it take to recover"
+    ],
+    "responses": [
+    "It takes anything up to six weeks to recover from \nthis disease."
+    ]
+      },
+
+
+      {
+        "tag": "virussize",
+    "patterns": [
+       "What is the size of bovine coronavirus"
+    ],
+    "responses": [
+    "31 kb"
+    ]
+      },
+      {
+       "tag": "virusgenus",
+    "patterns": [
+       "What is the genus of the SARS coronavirus"
+    ],
+    "responses": [
+    "Betacoronavirus"
+    ]
+      },
+
+      {
+        "tag": "animalswhocarrycovid",
+    "patterns": [
+       "What animals can carry coronavirus"
+    ],
+    "responses": [
+    "uding birds, farm animals, pets, camels"
+    ]
+      },
+
+
+      {
+        "tag": "coronatestdiagnose",
+    "patterns": [
+       "What kind of test can diagnose COVID-19"
+    ],
+    "responses": [
+    "rRT PCR test"
+    ]
+      },
+
+      {
+        "tag": "covidcauseinterval",
+    "patterns": [
+       "How long did it take to identify the cause of COVID-19"
+    ],
+    "responses": [
+    "4 weeks"
+    ]
+      },
+      {
+        "tag": "originofcovid",
+    "patterns": [
+       "Where did corona virus originate"
+    ],
+    "responses": [
+    "Wuhan City, China"
+    ]
+      },
+
+
+      {
+        "tag": "covidtreatment",
+    "patterns": [
+       "What treatments are available for COVID-19"
+    ],
+    "responses": [
+    "People with COVID-19 should receive supportive \ncare to help relieve symptoms. People with \nmild symptoms are able to recover at home."
+    ]
+      },
+      {
+        "tag": "covidplasmatherapy",
+    "patterns": [
+       "What is convalescent plasma",
+      "What is plasma therapy for covid corona virus",
+      "What is plasma therapy"
+    ],
+    "responses": [
+    "Convalescent plasma is the liquid part of \nblood that is collected from patients who have \nrecovered from the novel coronavirus disease, COVID-19, \ncaused by the virus SARS-CoV-2."
+    ]
+      },
+
+
+      {
+        "tag": "howcovidtestingisdone",
+    "patterns": [
+       "How are people tested for COVID-19"
+    ],
+    "responses": [
+    "To be tested for COVID-19, a sample is \ntypically collected from your nose and or \nthroat with a special swab at a designated collection \nlocation staffed by health care professionals."
+    ]
+      },
+      {
+        "tag": "sourceofcoronacovid",
+    "patterns": [
+       "What is the source of the corona virus"
+    ],
+    "responses": [
+    "Early on, many of the patients at the epicenter \nof the COVID-19 outbreak in China had some link \nto a large seafood and live animal market, \nsuggesting animal-to-person spread."
+    ]
+      },
+      {
+        "tag": "pandemic",
+    "patterns": [
+       "What does it mean that COVID-19 is a Global Pandemic",
+      "What is pandemic",
+      "Current pandemic"
+    ],
+    "responses": [
+    "A pandemic is a global outbreak of disease. \nPandemics happen when a new virus emerges to \ninfect people and can spread between people."
+    ]
+      },
+      {
+        "tag": "socialdistancing",
+    "patterns": [
+       "What is social distancing"
+    ],
+    "responses": [
+    "Social distancing is deliberately increasing \nthe physical space between people to avoid \nspreading illness."
+    ]
+      },
+
+      {
+        "tag": "fatalityrate",
+    "patterns": [
+       "What is coronavirus fatality rate"
+    ],
+    "responses": [
+    "Right now, it appears that COVID-19, the \ndisease caused by the new coronavirus, causes more \ncases of severe disease and more deaths than \nthe seasonal flu. People over age 85 have \nthe highest risk of fatality and children \nunder 19, the lowest, but this could \nchange as more people are tested and trends \nbecome clearer. "
+    ]
+      },
+
+
+      {
+        "tag": "covidend",
+    "patterns": [
+       "When will the COVID-19 virus end?",
+      "when will covid end"
+    ],
+    "responses": [
+    "At some point, it will be over, and then \nwe’ll go back to normal."
+    ]
+      },
+
+
+      {
+        "tag": "catchingcovid",
+    "patterns": [
+       "How likely am I to catch COVID-19"
+    ],
+    "responses": [
+    "The risk depends on where you are - \nand more specifically, whether there is \na COVID-19 outbreak unfolding there."
+    ]
+      },
+
+      {
+        "tag": "howcanwegetcovidtest",
+    "patterns": [
+       "How can I get tested for COVID-19"
+    ],
+    "responses": [
+    "Call your local clinic medical facility to \ninform them of your condition and relevant travel \nexposure history. If you had been identified as a \nclose contact of a case by the local Ministry of Health \nor WHO, please also indicate this. From here you will \nbe advised if a medical assessment is necessary and how \nto get tested."
+    ]
+      },
+
+      {
+        "tag": "covidcatching",
+    "patterns": [
+       "How likely am I to catch COVID-19"
+    ],
+    "responses": [
+    "The risk depends on where you live or \nwhere you have travelled recently. The \nrisk of infection is higher in areas where a number \npeople have been diagnosed with COVID-19. "
+    ]
+      },
+
+      {
+        "tag": "positiveimpactsofcovid",
+    "patterns": [
+       "What are the positive impacts of the COVID-19 crisis?"
+    ],
+    "responses": [
+    "1. Helps you Build Genuine Relationships \n2. A New Wave of Tools & Software \n3. Entire Lifestyle Changes to Practice Better Hygiene \n4. Innovations to Stay Connected & Help Each Other \n5. Blue-chip Stocks Becoming the Safe Bet to Invest \n6. Remote Working Turning Mainstream \n7. Affordable Real Estate in Tier 1 Cities \n8. Education becomes digitized & affordable"
+    ]
+      },
+
+      {
+        "tag": "lessonslearned",
+    "patterns": [
+       "What lessons will the world learn from COVID-19?"
+    ],
+    "responses": [
+    "Family and friends come first \nThere's no place like the outdoors \nPrevention is power \nHobbies are healing \nOur minds matter \nEssential workers are heroes"
+    ]
+      },
+      {
+        "tag": "covidcause",
+    "patterns": [
+       "What is the main cause of COVID-19?"
+    ],
+    "responses": [
+    "COVID-19 is caused by infection with the severe \nacute respiratory syndrome coronavirus 2 SARS-CoV-2 \nvirus strain."
+    ]
+      },
+      {
+        "tag": "covidtesting",
+    "patterns": [
+       "How is COVID-19 tested?",
+      "How do I get an antibody test for COVID-19?"
+    ],
+    "responses": [
+    "COVID-19 tests are available that can test \nfor current infection or past infection. \nA viral test tells you if you have a current infection. \nTwo types of viral tests can be used: \nnucleic acid amplification tests NAATs and \nantigen tests. \nAn antibody test also known as a serology test might \ntell you if you had a past infection. Antibody tests \nshould not be used to diagnose a current infection."
+    ]
+      },
+      {
+        "tag": "originofvirus",
+    "patterns": [
+       "Where did COVID-19 come from?"
+    ],
+    "responses": [
+    "Many health experts believe that the \nnew strain of coronavirus likely \noriginated in bats or pangolins. The first transmission \nto humans was in Wuhan, China. Since then, the \nvirus has mostly spread through person-to-person \ncontact."
+    ]
+      },
+
+      {
+        "tag": "economicpandemic",
+    "patterns": [
+       "Is Covid-19 an economic pandemic?"
+    ],
+    "responses": [
+    "Yes"
+    ]
+      },
+
+      {
+        "tag": "covidcases",
+    "patterns": [
+       "How many Cases were reported today",
+      "Covid cases around the globe"
+    ],
+    "responses": [
+    "Please specify your country or you can simply \ntype 'World' for cases around the \nglobe"
+    ]
+      },
+      {
+        "tag": "uscovidcases",
+    "patterns": [
+       "US",
+      "United States"
+    ],
+    "responses": [
+    "Country : US\nConfirmed Cases : 33,835,634\nActive Case : 5,874,293\nDeaths : 602,656\nRecovered : 27,358,685"
+    ]
+      },
+      {
+        "tag": "worldcovidcases",
+    "patterns": [
+       "World",
+      "Covid cases around the world"
+    ],
+    "responses": [
+    "Confirmed Cases : 166,198,527\nActive Case : 15,773,456\nDeaths : 3,450,721\nRecovered : 146,974,350"
+    ]
+      },
+      {
+        "tag": "brazilcovidcases",
+    "patterns": [
+       "Brazil"
+    ],
+    "responses": [
+    "Country : Brazil\nConfirmed Cases : 15,898,558\nActive Case : 1,068,205\nDeaths : 444,391\nRecovered : 14,385,962"
+    ]
+      },
+      {
+        "tag": "indiacovidcases",
+    "patterns": [
+       "India"
+    ],
+    "responses": [
+    "Country : India\nConfirmed Cases : 26,252,579\nActive Case : 2,957,892\nDeaths : 294,794\nRecovered : 22,999,893"
+    ]
+      },
+      {
+        "tag": "mexicocovidcases",
+    "patterns": [
+       "Mexico"
+    ],
+    "responses": [
+    "Country : Mexico\nConfirmed Cases : 2,390,140\nActive Case : 259,873\nDeaths : 221,080\nRecovered : 1,909,187"
+    ]
+      },
+      {
+        "tag": "ukcovidcases",
+    "patterns": [
+       "UK",
+      "United Kingdom"
+    ],
+    "responses": [
+    "Country : UK\nConfirmed Cases : 4,457,923\nActive Case : 42,859\nDeaths : 127,710\nRecovered : 4,287,354"
+    ]
+      },
+      {
+        "tag": "italycovidcases",
+    "patterns": [
+       "Italy"
+    ],
+    "responses": [
+    "Country : Italy\nConfirmed Cases : 4,183,476\nActive Case : 292,006\nDeaths : 124,810\nRecovered : 3,766,660\n"
+    ]
+      },
+      {
+        "tag": "russiacovidcases",
+    "patterns": [
+       "Russia"
+    ],
+    "responses": [
+    "Country : Russia\nConfirmed Cases : 4,983,845\nActive Case : 264,986\nDeaths : 117,739\nRecovered : 4,601,120"
+    ]
+      },
+      {
+        "tag": "francecovidcases",
+    "patterns": [
+       "France"
+    ],
+    "responses": [
+    "Country : France\nConfirmed Cases : 5,568,551\nActive Case : 297,613\nDeaths : 108,314\nRecovered : 5,162,624"
+    ]
+      },
+      {
+        "tag": "germanycovidcases",
+    "patterns": [
+       "Germany"
+    ],
+    "responses": [
+    "Country : Germany\nConfirmed Cases : 3,640,085\nActive Case : 177,818\nDeaths : 87,667\nRecovered : 3,374,600"
+    ]
+      },
+      {
+        "tag": "spaincovidcases",
+    "patterns": [
+       "Spain"
+    ],
+    "responses": [
+    "Country : Spain \nConfirmed Cases : 3,631,661\nActive Case : 195,788\nDeaths : 79,601\nRecovered : 3,356,272"
+    ]
+      },
+      {
+        "tag": "casescovidcolombia",
+    "patterns": [
+       "Colombia",
+      "Columbia"
+    ],
+    "responses": [
+    "Country : Colombia\nConfirmed Cases : 3,177,212\nActive Case : 114,746\nDeaths : 83,233\nRecovered : 2,979,233"
+    ]
+      },
+      {
+        "tag": "irancovidcases",
+    "patterns": [
+       "Iran"
+    ],
+    "responses": [
+    "Country : Iran\nConfirmed Cases : 2,815,882\nActive Case :432,864\nDeaths : 78,194\nRecovered : 2,304,824"
+    ]
+      },
+      {
+        "tag": "Polandcovidcases",
+    "patterns": [
+       "Poland"
+    ],
+    "responses": [
+    "Country : Poland\nConfirmed Cases : 2,863,031\nActive Case :172,309\nDeaths : 72,691\nRecovered : 2,618,031"
+    ]
+      },
+      {
+        "tag": "argentinacovidcases",
+    "patterns": [
+       "Argentina"
+    ],
+    "responses": [
+    "Country : Argentina\nConfirmed Cases : 3,447,044\nActive Case : 339,211\nDeaths : 72,699\nRecovered : 3,035,134"
+    ]
+      },
+      {
+        "tag": "perucovidcases",
+    "patterns": [
+       "Peru"
+    ],
+    "responses": [
+    "Country : Peru\nConfirmed Cases : 1,910,360\nActive Case : 122,442\nDeaths : 67,253\nRecovered : 1,720,665"
+    ]
+      },
+      {
+        "tag": "southafricacovidcases",
+    "patterns": [
+       "South Africa"
+    ],
+    "responses": [
+    "Country : South africa\nConfirmed Cases : 1,625,003\nActive Case : 37,442\nDeaths : 55,568\nRecovered : 1,531,993"
+    ]
+      },
+      {
+        "tag": "indonesiacovidcases",
+    "patterns": [
+       "Indonesia"
+    ],
+    "responses": [
+    "Country : Indonesia\nConfirmed Cases : 1,764,644\nActive Case : 89,429\nDeaths : 49,073\nRecovered : 1,626,142"
+    ]
+      },
+      {
+        "tag": "turkeycovidcases",
+    "patterns": [
+       "Turkey"
+    ],
+    "responses": [
+    "Country : Turkey\nConfirmed Cases : 5,160,423\nActive Case : 125,010\nDeaths : 45,626\nRecovered : 4,989,787"
+    ]
+      },
+      {
+        "tag": "ukrainecovidcases",
+    "patterns": [
+       "ukraine"
+    ],
+    "responses": [
+    "Country : Ukraine\nConfirmed Cases : 2,175,382\nActive Case : 197,242\nDeaths : 49,101\nRecovered : 1,929,039"
+    ]
+      },
+      {
+        "tag": "czechrepubliccovidcases",
+    "patterns": [
+       "Czech republic"
+    ],
+    "responses": [
+    "Country : Czech Republic\nConfirmed Cases : 1,656,874\nActive Case : 23,120\nDeaths : 29,990\nRecovered : 1,603,764"
+    ]
+      },
+      {
+        "tag": "romaniacovidcases",
+    "patterns": [
+       "romania"
+    ],
+    "responses": [
+    "Country : Romania\nConfirmed Cases : 1,074,781\nActive Case : 14,818\nDeaths : 29,826\nRecovered : 1,030,137"
+    ]
+      },
+      {
+        "tag": "chilecovidcases",
+    "patterns": [
+       "chile"
+    ],
+    "responses": [
+    "Country : Chile\nConfirmed Cases : 1,315,913\nActive Case : 41,635\nDeaths : 28,290\nRecovered : 1,245,988"
+    ]
+      },
+      {
+        "tag": "hungarycovidcases",
+    "patterns": [
+       "Hungary"
+    ],
+    "responses": [
+    "Country : Hungary\nConfirmed Cases : 801,025\nActive Case : 110,034\nDeaths : 29,427\nRecovered : 661,564"
+    ]
+      },
+      {
+        "tag": "belgiumcovidcases",
+    "patterns": [
+       "belgium"
+    ],
+    "responses": [
+    "Country : Belgium\nConfirmed Cases : 1,041,706\nActive Case : 90,035\nDeaths : 24,794\nRecovered : 926,877"
+    ]
+      },
+      {
+        "tag": "canadacovidcases",
+    "patterns": [
+       "canada"
+    ],
+    "responses": [
+    "Country : Canada\nConfirmed Cases : 1,347,445\nActive Case : 59,968\nDeaths : 25,111\nRecovered : 1,262,366"
+    ]
+      },
+      {
+        "tag": "ecuadorcovidcases",
+    "patterns": [
+       "ecuador"
+    ],
+    "responses": [
+    "Country : Ecuador\nConfirmed Cases : 415,255\nActive Case : 40,734\nDeaths : 20,022\nRecovered : 354,499"
+    ]
+      },
+      {
+        "tag": "portugalcovidcases",
+    "patterns": [
+       "Portugal"
+    ],
+    "responses": [
+    "Country : Portugal\nConfirmed Cases : 844,288\nActive Case : 22,287\nDeaths : 17,017\nRecovered : 804,984"
+    ]
+      },
+      {
+        "tag": "netherlandscovidcases",
+    "patterns": [
+       "Netherlands"
+    ],
+    "responses": [
+    "Country : Netherlands\nConfirmed Cases : 1,619,648\nActive Case : 193,393\nDeaths : 17,518\nRecovered : 1,408,737"
+    ]
+      },
+      {
+        "tag": "pakistancovidcases",
+    "patterns": [
+       "Pakistan"
+    ],
+    "responses": [
+    "Country : Pakistan\nConfirmed Cases : 893,461\nActive Case : 63,229\nDeaths : 20,089\nRecovered : 810,143"
+    ]
+      },
+      {
+        "tag": "philippinescovidcases",
+    "patterns": [
+       "Philippines"
+    ],
+    "responses": [
+    "Country : Philippines\nConfirmed Cases : 1,171,403\nActive Case : 55,531\nDeaths : 19,763\nRecovered : 1,096,109"
+    ]
+      },
+      {
+        "tag": "iraqcovidcases",
+    "patterns": [
+       "Iraq"
+    ],
+    "responses": [
+    "Country : Iraq\nConfirmed Cases : 1,160,494\nActive Case : 72,331\nDeaths : 16,137\nRecovered :1,072,026"
+    ]
+      },
+      {
+        "tag": "kazakhstancovidcases",
+    "patterns": [
+       "Kazakhstan"
+    ],
+    "responses": [
+    "Country : Kazakhstan \nConfirmed Cases : 368,748\nActive Case : 34,706\nDeaths : 4,124\nRecovered : 329,918"
+    ]
+      },
+      {
+        "tag": "swedencovidcases",
+    "patterns": [
+       "Sweden"
+    ],
+    "responses": [
+    "Country : Sweden\nConfirmed Cases: 1,058,341\nActive Case : 126,321\nDeaths : 14,366\nRecovered : 917,654"
+    ]
+      },
+      {
+        "tag": "egyptcovidcases",
+    "patterns": [
+       "Egypt"
+    ],
+    "responses": [
+    "Country : Egypt\nConfirmed Cases : 250,391\nActive Case : 51,459\nDeaths : 14,559\nRecovered :184,373"
+    ]
+      },
+      {
+        "tag": "switzerlandcovidcases",
+    "patterns": [
+       "Switzerland"
+    ],
+    "responses": [
+    "Country : Switzerland\nConfirmed Cases : 687,353\nActive Case : 45,181\nDeaths : 10,766\nRecovered :631,406"
+    ]
+      },
+      {
+        "tag": "bangladeshcovidcases",
+    "patterns": [
+       "Bangladesh"
+    ],
+    "responses": [
+    "Country : Bangladesh\nConfirmed Cases : 786,698\nActive Case : 45,349\nDeaths : 12,310\nRecovered :729,039"
+    ]
+      },
+      {
+        "tag": "austriacovidcases",
+    "patterns": [
+       "Austria"
+    ],
+    "responses": [
+    "Country : Austria\nConfirmed Cases : 640,293\nActive Case : 8,922\nDeaths : 10,534\nRecovered :620,837"
+    ]
+      },
+      {
+        "tag": "japancovidcases",
+    "patterns": [
+       "Japan"
+    ],
+    "responses": [
+    "Country : Japan\nConfirmed Cases : 704,159\nActive Case : 70,505\nDeaths : 12,046\nRecovered :621,608"
+    ]
+      },
+      {
+        "tag": "russiacovidcases",
+    "patterns": [
+       "tunisia"
+    ],
+    "responses": [
+    "Country : Tunisia\nConfirmed Cases : 331,674\nActive Case : 26,760\nDeaths : 12,089\nRecovered : 292,825"
+    ]
+      },
+      {
+        "tag": "moroccocovidcases",
+    "patterns": [
+       "morocco"
+    ],
+    "responses": [
+    "Country : Morocco \nConfirmed Cases : 516,091\nActive Case : 2,543\nDeaths : 9,109\nRecovered :504,439"
+    ]
+      },
+      {
+        "tag": "boliviacovidcases",
+    "patterns": [
+       "Bolivia"
+    ],
+    "responses": [
+    "Country : Bolivia \nConfirmed Cases : 343,065\nActive Case : 51,574\nDeaths : 13,780\nRecovered :277,711"
+    ]
+      },
+      {
+        "tag": "greececovidcases",
+    "patterns": [
+       "Greece"
+    ],
+    "responses": [
+    "Country : Greece \nConfirmed Cases :387,426\nActive Case :35,117\nDeaths : 11,697\nRecovered :340,612"
+    ]
+      },
+      {
+        "tag": "jordancovidcases",
+    "patterns": [
+       "Jordan"
+    ],
+    "responses": [
+    "Country : Jordan\nConfirmed Cases : 676,175\nActive Case : 51,092\nDeaths : 7,987\nRecovered :617,096"
+    ]
+      },
+      {
+        "tag": "bosniacovidcases",
+    "patterns": [
+       "Bosnia and Herzegovina"
+    ],
+    "responses": [
+    "Country : Bosnia and Herzegovina\nConfirmed Cases : 186,372\nActive Case : 34,786\nDeaths :7,642 \nRecovered :143,944"
+    ]
+      },
+      {
+        "tag": "guatemalacovidcases",
+    "patterns": [
+       "guatemala"
+    ],
+    "responses": [
+    "Country : Guatemala\nConfirmed Cases : 207,127\nActive Case : 12,144\nDeaths : 7,089\nRecovered :187,894"
+    ]
+      },
+      {
+        "tag": "saudiarabiacovidcases",
+    "patterns": [
+       "saudi arabia"
+    ],
+    "responses": [
+    "Country : Saudi arabia\nConfirmed Cases :438,705\nActive Case : 8,775\nDeaths : 7,224\nRecovered :422,706"
+    ]
+      },
+      {
+        "tag": "lebanoncovidcases",
+    "patterns": [
+       "Lebanon"
+    ],
+    "responses": [
+    "Country : Lebanon\nConfirmed Cases : 537,437\nActive Case :24,431\nDeaths : 7,658\nRecovered :505,348"
+    ]
+      },
+      {
+        "tag": "UAEcovidcases",
+    "patterns": [
+       "UAE"
+    ],
+    "responses": [
+    "Country : UAE\nConfirmed Cases : 552,920\nActive Case :18,366\nDeaths : 1,644\nRecovered :532,910"
+    ]
+      }
+    ]
+}
